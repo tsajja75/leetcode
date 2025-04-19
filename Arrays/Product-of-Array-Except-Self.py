@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[int]
         \\\
 
-        #
+        # using prefxsum
         res = [1] * (len(nums))
 
         prefix = 1
